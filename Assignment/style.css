@@ -1,0 +1,86 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form section */
+#form-section {
+    padding: 20px;
+    background-color: white;
+}
+
+/* Student form layout */
+#student-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* Input fields styling */
+#student-form input {
+    flex: 1 1 200px;
+    padding: 10px;
+}
+
+/* Submit button styling */
+#student-form button {
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table display styling */
+#display-section {
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+}
+
+/* Table formatting */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #ddd;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Edit/Delete buttons */
+button.edit, button.delete {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button.edit {
+    background-color: #ff9800;
+    color: white;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+}
